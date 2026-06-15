@@ -6,7 +6,7 @@ app.use(express.json());
 const VERIFY_TOKEN = "castello_bot_token";
 const WHATSAPP_TOKEN = "EAAZBhaFC5JsABRvYlQ711vHpKFKzglVOVDevUJCxs1QEszVhZCMZCtv1ed9M8kxygUn7RSZCW1AxUNVacZCOJCVCDwJ8ZCZCAFaGkfuUmRZCkiAaFweryTTCC76V1TLlc1gas2o1zSRipZCtWg0hIx2ZCm4jNShSQlJyrjJPqn07fBDwV7iemu98ZB7xFfCl4p9hFUniXBpbZCgxePmVnDDqAakICaC2qmbs1R7ZBw6ruvZBncaZAGxToUdVRmNg18G58XrA5ksOMMuF4lCemHR91EhhAZDZD";
 const PHONE_NUMBER_ID = "1123498650854122";
-const ANTHROPIC_API_KEY = "Azioni";
+const ANTHROPIC_API_KEY = "sk-ant-api03-LjJfdvRWBhBHZEMd6zGl0R9zHzYVh9PgjT_y7_h9ijzg74c5VlhlgXJH-twvWUJSnWSyiGwhlUZL0Rry7kY10A-07pmxgAA";
 
 const SYSTEM_PROMPT = `Sei Lorenzo, il gestore del B&B Il Castello, situato in Via Aldo Moro 9 a Tivoli. Rispondi agli ospiti in prima persona, con tono cordiale, come farebbe un gestore attento e disponibile. Usa sempre il Lei con gli ospiti. Non rivelare mai di essere un assistente automatico o un sistema AI. Rileva la lingua del messaggio dell'ospite e rispondi sempre nella stessa lingua.
 
