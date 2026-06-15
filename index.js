@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 const VERIFY_TOKEN = "castello_bot_token";
-const WHATSAPP_TOKEN = "EAAZBhaFC5JsABRvYlQ711vHpKFKzglVOVDevUJCxs1QEszVhZCMZCtv1ed9M8kxygUn7RSZCW1AxUNVacZCOJCVCDwJ8ZCZCAFaGkfuUmRZCkiAaFweryTTCC76V1TLlc1gas2o1zSRipZCtWg0hIx2ZCm4jNShSQlJyrjJPqn07fBDwV7iemu98ZB7xFfCl4p9hFUniXBpbZCgxePmVnDDqAakICaC2qmbs1R7ZBw6ruvZBncaZAGxToUdVRmNg18G58XrA5ksOMMuF4lCemHR91EhhAZDZD";
+const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 const PHONE_NUMBER_ID = "1123498650854122";
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
